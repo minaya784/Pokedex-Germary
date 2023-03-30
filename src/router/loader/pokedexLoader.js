@@ -1,4 +1,5 @@
-import { getAllPokemons } from '../../services/getAllPokemons';
+// import { getAllPokemons } from '../../services/getAllPokemons';
+import { getAllPokemons } from '../../services/getAllpokemons';
 import { getAllTypes } from '../../services/getAllTypes';
 import { getPokemonByType } from '../../services/getPokemonByType';
 
