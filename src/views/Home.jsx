@@ -29,6 +29,7 @@ const Home = () => {
   return (
     <>
       <nav className="navbar__container">
+        <div className="pokemon__background"></div>
         <div className="logo">
           <div>
             <img src="/pokedex-img.png" alt="Pokedex" className="img-logo" />

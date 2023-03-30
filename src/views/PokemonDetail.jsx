@@ -41,7 +41,7 @@ const PokemonDetail = () => {
             />
           </div>
           <div className="container__info">
-            <h1>#{pokemon.id}</h1>
+            <h1 className='pokemon__id'>#{pokemon.id}</h1>
             <h2 className="pokemon__name">{pokemon.name}</h2>
             <div className="container__description">
               <div>

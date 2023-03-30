@@ -1,0 +1,2 @@
+https://github.com/minaya784/Pokedex-Germary.git
+https://pokedex-germary.netlify.app/
