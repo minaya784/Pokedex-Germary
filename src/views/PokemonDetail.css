@@ -1,0 +1,228 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+   
+  font-family: 'Inter', sans-serif;
+  background-color:  #FFFFFF ;
+}
+
+@media (min-width:320px){
+  /* .body{
+    width: 100%;
+    background: white; */
+
+.container__data{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
+
+}
+.container__background{
+display: flex;
+justify-content: center;
+width:94%;
+height: 200px;
+background: #7EC6C5;
+ margin-top: 130px;
+ margin-left: 20px;
+ margin-right: 20px;
+
+}
+.container__img{     
+position: absolute;
+bottom: 90px;
+width: 250px;
+height: 250px;
+}
+.container__info{
+  margin-top: 15px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+
+}
+.pokemon__name{
+text-transform: capitalize;
+color: #416460;
+font-size: 30px;
+}
+.container__description{
+  display: flex;
+  gap: 30px;
+}
+.container__description :nth-child(1){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__description :nth-child(2){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container__type__ability{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.container__type{
+ width: 150px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+  .container__ability{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .type{
+    text-transform: capitalize;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+  }
+
+  .ability{
+    text-transform: capitalize;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+  }
+  .container__stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 30px 20px 0 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.30);
+    border-radius: 4px;
+    
+  }
+  .stats__title{
+    margin-top: 20px;
+  }
+  .stats{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .stats__data{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  .stats__bar{
+    width: 80%;
+    height: 20px;
+    background: #F7F7F7;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  .stats__bar__son{
+    width: 45%;
+    height: 20px;
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    border-radius: 4px;
+  }
+
+  .moves__container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px; 
+    margin: 50px 20px 0 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.40);
+    border-radius: 4px;
+    margin-bottom: 50px;
+  }
+  .title__moves{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .moves{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 30px 20px 0 20px;
+  }
+  .text__moves{
+    
+    margin: 5px 5px 5px 5px;
+    border-radius: 10px;
+    background: #E5E5E5;
+    
+  }
+}
+     
+@media (min-width:768px){
+
+  .container__img{     
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    bottom: -50px;
+    margin-top: 30px
+    }
+    
+    .container__info{
+      margin-top: 20px;
+      font-size: 35px;
+      
+          
+    }
+    .stats__title{
+      font-size: 40px;
+    }
+    .container__description{
+      width: 50%;
+      justify-content: space-between;
+    }
+    .container__type{
+    font-size: 30px;
+    }
+    .container__ability{
+      font-size: 30px;
+
+    }
+
+    .container__type__ability{
+      gap: 20%;
+            
+    }
+    .container__stats{
+      height: 680px;
+    }
+
+    .stats__bar{
+      width: 80%;
+      height: 30px;
+    }
+    .stats__bar__son{
+      width: 60%;
+      height: 30px;
+    }
+    
+}
